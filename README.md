@@ -1,8 +1,7 @@
 import java.util.*;
-
 public class Main {
     public static void main(String[] args) {
-        // Set Example
+    
         Set<String> fruitSet = new HashSet<>();
         fruitSet.add("Grape");
         fruitSet.add("Kiwi");
@@ -15,7 +14,6 @@ public class Main {
         }
         System.out.println();
 
-        // List Example
         List<Integer> numberList = new ArrayList<>();
         numberList.add(1);
         numberList.add(2);
@@ -28,7 +26,6 @@ public class Main {
         }
         System.out.println();
 
-        // Map Example
         Map<String, Integer> studentScores = new HashMap<>();
         studentScores.put("Alice", 8);
         studentScores.put("Bob", 9);
